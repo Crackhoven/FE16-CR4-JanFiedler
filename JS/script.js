@@ -12,7 +12,7 @@ function updateHTML(arr) {
             <h5 class="card-title text-center">${x.taskName}</h5>
             <p class="card-text text-center">${x.taskDescription}</p>
             <hr>
-            <p class="card-text"><i class="fa-solid fa-triangle-exclamation me-2"></i>Priority Level: <a class="btn-imp btn" id="imp-btn"><span class="importance">${x.importance}</span></a></p>
+            <p class="card-text"><i class="fa-solid fa-triangle-exclamation me-2"></i>Priority Level: <a class="btn-imp btn btn-${x.importance < 2 ? `success` : x.importance < 4 ? 'warning' : 'danger'}" id="imp-btn"><span class="importance">${x.importance}</span></a></p>
             <p class="card-text"><i class="fa-solid fa-calendar-days me-2"></i>Deadline: 21.06.2022</p>
             <hr>
             <a class="btn btn-danger"><i class="fa-solid fa-trash-can me-2"></i>Delete</a>
@@ -30,8 +30,9 @@ function likeAction() {
         btns[i].addEventListener("click", function () {
             cardContent[i].importance++;
             document.getElementsByClassName("importance")[i].innerHTML = cardContent[i].importance;
+            
 
-            var sortedArray = cardContent.sort((a, b) => a.likes - b.likes);
+            var sortedArray = cardContent.sort((a, b) => b.importance - a.importance);
             updateHTML(sortedArray);
         });
     }
