@@ -1,4 +1,4 @@
-let taskCards = [{
+let cardTasks = `[{
     "taskName": "Muay Thai",
     "taskDescription": "Get yo ass out of your apartment and train you lazy bastard",
     "taskImage": "../img/thai.jpg",
@@ -43,4 +43,4 @@ let taskCards = [{
     "taskDescription": "It's important.",
     "taskImage": "../img/breathe.jpg",
     "importance": 0
-}]
+}]`
