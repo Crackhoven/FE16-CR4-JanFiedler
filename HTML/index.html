@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0a1c0af7bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand">
-                <i class="fa-solid fa-list-check d-inline-block align-text-top" width="30" height="24"></i>
+                <i class="fa-solid fa-list-check d-inline-block me-1" width="30" height="24"></i>
                 My Planner
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,7 +34,78 @@
             </div>
         </div>
     </nav>
+    <!-- HERO -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Your weekly planner.</h1>
+        </div>
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="content-container">
+        <h2 class="mb-4">Weekly Tasks</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 gap-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/pride.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">your mom</h5>
+                        <p class="card-text text-center">your mom owns a village</p>
+                        <hr>
+                        <p class="card-text"><i class="fa-solid fa-triangle-exclamation me-2"></i>Priority Level: <span class="importance">0</span></p>
+                        <p class="card-text"><i class="fa-solid fa-calendar-days me-2"></i>Deadline: 21.06.2022</p>
+                        <hr>
+                        <a class="btn btn-danger"><i class="fa-solid fa-trash-can me-2"></i>Delete</a>
+                        <a class="btn btn-success"><i class="fa-solid fa-circle-check me-2"></i></i>Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="search-text">
+            <div class="container">
+                <div class="row text-center">
 
+                    <div class="form">
+                        <h4>SIGN UP TO OUR NEWSLETTER</h4>
+                        <form id="search-form" class="form-search form-horizontal">
+                            <input type="text" class="input-search" placeholder="Email Address">
+                            <button type="submit" class="btn-search">SUBMIT</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mb-4 text-center">
+                        <a href="https://twitter.com/Crackhoven" target="_blank"><i
+                                class="fa fa-twitter fa-2x"></i>Twitter</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mb-4 text-center">
+                        <a href="https://github.com/Crackhoven" target="_blank"><i
+                                class="fa fa-github fa-2x"></i>Github</a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mb-4 text-center">
+                        <a href="https://www.twitch.tv/crackhoven" target="_blank"><i
+                                class="fa fa-brands fa-twitch fa-2x"></i>Twitch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row text-center">
+                <p>Copyright © 2022 All rights reserved</p>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>

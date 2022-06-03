@@ -1,0 +1,46 @@
+let taskCards = [{
+    "taskName": "Muay Thai",
+    "taskDescription": "Get yo ass out of your apartment and train you lazy bastard",
+    "taskImage": "../img/thai.jpg",
+    "importance": 0
+}, {
+    "taskName": "Make food",
+    "taskDescription": "You don't wanna go to bed hungry again, do you? Didn't think so.",
+    "taskImage": "../img/pizza.jpg",
+    "importance": 0
+}, {
+    "taskName": "Destroy favorites",
+    "taskDescription": "Don't let him get one up on you again.",
+    "taskImage": "../img/pokemon.jpg",
+    "importance": 0
+}, {
+    "taskName": "Hang out with friends",
+    "taskDescription": "Enjoy the small things in live.",
+    "taskImage": "../img/friends.jpg",
+    "importance": 0
+}, {
+    "taskName": "Look at funny animal videos",
+    "taskDescription": "And be sad that you can't have them",
+    "taskImage": "../img/axolotl.jpg",
+    "importance": 0
+}, {
+    "taskName": "Pride Parade",
+    "taskDescription": "Take part in the parade.",
+    "taskImage": "../img/pride.jpg",
+    "importance": 0
+}, {
+    "taskName": "Monkey.",
+    "taskDescription": "Monkey.",
+    "taskImage": "../img/monkey.jpg",
+    "importance": 0
+}, {
+    "taskName": "Annoy your friends.",
+    "taskDescription": "Make sure they still know that you're around.",
+    "taskImage": "../img/trolled.jpg",
+    "importance": 0
+}, {
+    "taskName": "Breathe",
+    "taskDescription": "It's important.",
+    "taskImage": "../img/breathe.jpg",
+    "importance": 0
+}]
